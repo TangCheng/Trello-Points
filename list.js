@@ -66,7 +66,7 @@ function List($elt, filter, debug) {
 			if (debug) log("list scores found");
 			$total=$list.find('.list-total');
 		} else {
-			var parent = $list.find('.list-header h2');
+			var parent = $list.find('.list-header');
 			if (debug) log("inserting list scores element on: "+parent);
 			$total = $('<span class="list-total">').appendTo(parent);
 		}
